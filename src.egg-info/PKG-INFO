@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: src
+Version: 0.0.1
+Summary: A small package for dvc ml pipeline.
+Home-page: https://github.com/Abhinav003/dvc-ml-demo
+Author: PinnOps
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >3.7
+
+UNKNOWN
+
