@@ -12,13 +12,13 @@ def split_and_save(config_path, params_path):
     #save dataset in the local directory.
     #Create path to directory: artifacts/raw_local_directory/data.csv
 
-    artifacts_dir = config["artifacts"]["artifacts_dir"]
-    raw_local_dir = config["artifacts"]["raw_local_dir"]
-    raw_local_file = config["artifacts"]["raw_local_file"]
+    artifacts_dir = config["artifacts"]['artifacts_dir']
+    raw_local_dir = config["artifacts"]['raw_local_dir']
+    raw_local_file = config["artifacts"]['raw_local_file']
 
     raw_local_file_path = os.path.join(artifacts_dir, raw_local_dir, raw_local_file)
 
-    df = pd.read_csv(raw_local_file_path,sep=";")
+    df = pd.read_csv(raw_local_file_path)
     test_size = params["base"]["test_size"]
     random_state = params["base"]["random_state"]
  
